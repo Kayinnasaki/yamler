@@ -73,7 +73,7 @@ def get_filelist(locations, extensions):
     for location in locations:
         # Is it a Directory? Crawl it!
         if os.path.isdir(location):
-            for root, dirs, files in os.walk(location):
+            for root, files in os.walk(location):
                 for file in files:
                     # Skip Thumbs and Header files
                     if file.startswith('_') or 'mp4.thumb' in file:
