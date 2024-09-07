@@ -4,7 +4,7 @@ A simple script that uses the python YAML libraries to do some big sweeping tagg
 
 This script is used to manage a Grav gallery and the many pictures that get added to it, but bits and pieces might be useful to someone else. It is doubtful this file will be useful to you as is, but if you modify it or expand on it, please let me know!
 
-## Useage
+## Usage
 
 `yamler [gen/add/remove] [tags(for add and remove)] [files] [or] [folders]`
 
